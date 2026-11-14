@@ -1,0 +1,26 @@
+
+.venv/
+venv/
+__pycache__/
+*.pyc
+.env
+.env.*
+!.env.example
+.vscode/
+
+# Local databases and real data
+*.db
+*.db.*
+*.duckdb
+*.duckdb.*
+*.sqlite*
+*.xlsx
+*.xls
+*.csv
+*.parquet
+*.pdf
+
+# Generated outputs
+outputs/
+backups/
+logs/
